@@ -1,8 +1,25 @@
 aid: bevi
 name: Bevi
-description: 'Bevi is a company surfaced as a portfolio company of bessemer-venture-partners, techstars,
-  trinity-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Bevi is a smart beverage-dispenser company that manufactures connected,
+  filtered-water machines for offices and commercial spaces. Its IoT-enabled Standup
+  and Countertop dispensers deliver still and sparkling water plus dozens of fruit
+  flavors and functional enhancements (vitamins, electrolytes, energy, focus), connect
+  directly to a building''s water supply, and track plastic bottles saved in real
+  time. Bevi is backed by Bessemer Venture Partners, Techstars, and Trinity Ventures.
+  No public developer API surface (OpenAPI, docs, or developer portal) was found during
+  enrichment; this profile carries identity and domain-security signals only.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bevi.co/wp-content/uploads/2026/07/hero-img.webp
 url: https://raw.githubusercontent.com/api-evangelist/bevi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Beverages
+- IoT
+- Smart Dispensers
+- Water
+- Sustainability
+- Office
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.bevi.co/
+- type: Blog
+  url: https://bevi.co/resources/blog/
+- type: Pricing
+  url: https://bevi.co/get-a-quote/
+- type: Support
+  url: https://bevi.co/contact-us/
+- type: PrivacyPolicy
+  url: https://bevi.co/privacy-policy/
+- type: TermsOfService
+  url: https://bevi.co/website-terms-and-conditions/
+- type: DomainSecurity
+  url: security/bevi-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
