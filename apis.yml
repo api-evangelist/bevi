@@ -8,6 +8,17 @@ description: 'Bevi is a smart beverage-dispenser company that manufactures conne
   time. Bevi is backed by Bessemer Venture Partners, Techstars, and Trinity Ventures.
   No public developer API surface (OpenAPI, docs, or developer portal) was found during
   enrichment; this profile carries identity and domain-security signals only.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
